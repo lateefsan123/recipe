@@ -1,0 +1,1 @@
+This project is just to highlight that I've learned the basic html foundations. by the end of this project i would have a created a basic html recipe website.
