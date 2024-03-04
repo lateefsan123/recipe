@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
 }
@@ -31,13 +31,21 @@ h1 {
     font-size: 80px;
 }
 
+
+
 img {
-    display: block;
-    margin-left: 600;
-    margin-right: 0;
+    margin: auto;
     width: 300px;
     height: 300px;
-    border: 2px solid brown;
+    border: 0px solid;
+    padding-bottom: 50px;
+    padding-left: 78px;
+    border-radius: 50px;
+}
+
+img.clockforprep {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .main {
@@ -46,18 +54,21 @@ img {
 
 .time {
     display: grid;
-    grid-template-columns: auto auto auto;
-    margin-left: 500px;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 auto;
     padding-right: 2px;
-    padding-left: 20px;
+    padding-left: 170px;
     padding-bottom: 20px;
     padding-top: 20px;
-    border-color: black;
-    width: 430px;
+    border-color: 5px solid black;
+    width: 700px;
+    background-color: brown;
+    border-radius: 10px 10px 10px 10px;
 }
 
 
 #tick {
+    justify-items: start;;
     width: 10px;
 }
 
@@ -81,6 +92,7 @@ img {
 .ingre {
     text-align: left;
     list-style-type: none;
+    
 }
 
 .ingredients-list {
@@ -89,4 +101,117 @@ img {
     padding-right: 120px;
     padding-left: 120px;
 }
+ */
+
+ @font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+
+* {
+    padding-left: 0px;
+    box-sizing: border-box;
+ }
+
+ body li ul {
+    padding-left: 10px;
+ }
+ li {
+    color: (95, 87, 78);
+ }
+
+img {
+    max-width: 100%;
+}
+
+.banner h1 {
+    font-size: 48px;
+    font-family: sans-serif;
+    color: (24, 5%, 18%);
+}
+
+.banner p {
+    padding: 0px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+
+}
+
+.ingredientslist {
+    background-color: rgb(255, 245, 250);
+    padding: 5px;
+    border-radius: 0.5rem;
+}
+
+.ingredientslist li {
+    padding-bottom: 5px;
+    color: hsl(30, 10%, 34%);
+}
+
+.ingredientslist h3 {
+    color: rgb(123, 40, 79);
+    padding-left: 24PX;
+    font-weight: bold;
+}
+
+.ingredients {
+    border-bottom: 1px solid lightgrey;
+}
+
+.ingredients h2 {
+    color: rgb(133, 70, 50);
+    padding-left: 22px;
+    font-family: "Young Serif", serif;
+}
+
+.ingredients li {
+    padding-right: 0px;
+    padding-bottom: 5px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+.instructions h3 {
+    color: rgb(133, 70, 50);
+    padding-left: 25PX;
+    font-family: "Young Serif", serif;
+}
+
+.instructions li {
+    padding-bottom: 5px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+
+}
+
+ul {
+    padding-left: 40px;;
+}
+
+ol {
+    padding-left: 40px;
+}
+
+.instructions article {
+    border-bottom: 1px solid lightgrey;
+
+}
+
+.nutrition h2 {
+    color: rgb(133, 70, 50);
+    padding-left: 25PX;
+    font-family: "Young Serif", serif;
+}
+
+.nutrition ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid lightgrey;
+    font-family: "Outfit", sans-serif;
+
+}
+
+
+
 
