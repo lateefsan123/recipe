@@ -212,37 +212,79 @@ ol {
 
 }
 
-.displayer {
-    display: flex;
-    align-items: center;
+.display-image {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 300px 300px 300px;
     justify-content: space-around;
-}
-
-.displayer p {
-    display: block;
     
 }
 
-.displayer img {
-    padding-bottom: 10px;
-    border-bottom: 1px solid lightgrey;
-    margin-top: 70px;
+.display-heading {
+    display: grid;
+    grid-template-rows: 0px;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+    text-decoration: none;
+    color: hsl(30, 10%, 34%);
+
+
 }
 
-.displayer.sushi {
-    width: 350px;
-    height: 350px;
+.display-heading a {
+    text-decoration: none;
+    color: hsl(30, 10%, 34%);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
-.displayer.kebab {
-    width: 350px;
-    height: 350px;
+.display-heading li {
+    padding-top: 40px;
+    list-style-type: none;
+    font-size: 19px;
+    font-family: "Outfit", sans-serif;
+    padding-left: 60px;
+    padding-bottom: 20px;
 }
 
-.displayer.butterchick {
-    width: 350px;
-    height: 350px;
+.display-ratings {
+    display: flex;
+    grid-template-rows: 0px;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+
+    color: hsl(30, 10%, 34%);
 }
+
+.full {
+    font-size: 13px;
+    padding-left: 150px;
+    padding-right: 0;
+    margin-right: 0;
+    color: orange;
+    margin-bottom: 0px;
+}
+
+.ratings {
+    padding-right: 80px;
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.display-description {
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    display: grid;
+    grid-template-rows: 0px;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+
 .words {
     display: flex;
     align-items: center;
