@@ -212,6 +212,78 @@ ol {
 
 }
 
+.displayer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.displayer p {
+    display: block;
+    
+}
+
+.displayer img {
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+    margin-top: 70px;
+}
+
+.displayer.sushi {
+    width: 350px;
+    height: 350px;
+}
+
+.displayer.kebab {
+    width: 350px;
+    height: 350px;
+}
+
+.displayer.butterchick {
+    width: 350px;
+    height: 350px;
+}
+.words {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 21px;
+    margin-bottom: 0px;
+    
+}
+
+.words p {
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    border-bottom: 1px solid lightgrey;
+}
+
+.words.s  {
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-end;
+    margin-left: 60px;
+}
+
+.paragraphs {
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+.paragraphs p {
+    font-size: 14px;
+}
+
+.paragraphs p {
+    margin-right: 60px;
+}
+
+.paragraphs b {
+    display: flex;
+    align-items: end;    
+}
 
 
